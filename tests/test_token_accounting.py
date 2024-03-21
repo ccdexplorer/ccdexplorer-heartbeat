@@ -4,15 +4,15 @@ from rich import print
 from heartbeat import Heartbeat
 from pymongo import ASCENDING
 from env import *
-from ccdefundamentals.mongodb import (
+from ccdexplorer_fundamentals.mongodb import (
     MongoDB,
     MongoMotor,
     Collections,
 )
-from ccdefundamentals.tooter import Tooter
-from ccdefundamentals.GRPCClient import GRPCClient
+from ccdexplorer_fundamentals.tooter import Tooter
+from ccdexplorer_fundamentals.GRPCClient import GRPCClient
 from rich import print
-from ccdefundamentals.cis import (
+from ccdexplorer_fundamentals.cis import (
     MongoTypeTokenAddress,
     TokenMetaData,
     MongoTypeLoggedEvent,

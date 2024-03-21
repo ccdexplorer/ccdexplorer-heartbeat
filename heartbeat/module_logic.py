@@ -1,12 +1,12 @@
 # ruff: noqa: F403, F405, E402, E501, E722
 from .utils import Utils, Queue
-from ccdefundamentals.GRPCClient.CCD_Types import *
-from ccdefundamentals.enums import NET
-from ccdefundamentals.GRPCClient import GRPCClient
-from ccdefundamentals.mongodb import Collections
+from ccdexplorer_fundamentals.GRPCClient.CCD_Types import *
+from ccdexplorer_fundamentals.enums import NET
+from ccdexplorer_fundamentals.GRPCClient import GRPCClient
+from ccdexplorer_fundamentals.mongodb import Collections
 from pymongo import ReplaceOne
 from env import *
-import ccdefundamentals.GRPCClient.wadze as wadze
+import ccdexplorer_fundamentals.GRPCClient.wadze as wadze
 import io
 from rich.console import Console
 

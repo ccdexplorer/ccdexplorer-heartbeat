@@ -1,14 +1,14 @@
-from ccdefundamentals.mongodb import (
+from ccdexplorer_fundamentals.mongodb import (
     MongoDB,
     MongoMotor,
     Collections,
     CollectionsUtilities,
 )
-from ccdefundamentals.GRPCClient import GRPCClient
-from ccdefundamentals.tooter import Tooter, TooterChannel, TooterType
+from ccdexplorer_fundamentals.GRPCClient import GRPCClient
+from ccdexplorer_fundamentals.tooter import Tooter, TooterChannel, TooterType
 from pymongo import ASCENDING, DESCENDING, ReplaceOne, DeleteOne
-from ccdefundamentals.GRPCClient.CCD_Types import *
-from ccdefundamentals.cis import MongoTypeTokenAddress
+from ccdexplorer_fundamentals.GRPCClient.CCD_Types import *
+from ccdexplorer_fundamentals.cis import MongoTypeTokenAddress
 import datetime as dt
 from env import *
 from pydantic import BaseModel

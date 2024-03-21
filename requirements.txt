@@ -1,4 +1,4 @@
-ccdefundamentals
+ccdexplorer-fundamentals
 python-dotenv
 grpcio
 aiohttp

@@ -1,10 +1,10 @@
 # ruff: noqa: F403, F405, E402, E501, E722
 from enum import Enum
-from ccdefundamentals.GRPCClient.CCD_Types import *
-from ccdefundamentals.mongodb import Collections, MongoTypeInstance
-from ccdefundamentals.cis import CIS, StandardIdentifiers
-from ccdefundamentals.tooter import TooterChannel, TooterType
-from ccdefundamentals.enums import NET
+from ccdexplorer_fundamentals.GRPCClient.CCD_Types import *
+from ccdexplorer_fundamentals.mongodb import Collections, MongoTypeInstance
+from ccdexplorer_fundamentals.cis import CIS, StandardIdentifiers
+from ccdexplorer_fundamentals.tooter import TooterChannel, TooterType
+from ccdexplorer_fundamentals.enums import NET
 from pymongo import ReplaceOne
 import io
 

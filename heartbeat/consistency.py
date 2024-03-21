@@ -1,7 +1,7 @@
 # ruff: noqa: F403, F405, E402, E501, E722
 from .utils import Utils
-from ccdefundamentals.mongodb import Collections
-from ccdefundamentals.tooter import TooterChannel, TooterType
+from ccdexplorer_fundamentals.mongodb import Collections
+from ccdexplorer_fundamentals.tooter import TooterChannel, TooterType
 
 from pymongo.collection import Collection
 from pymongo import ReplaceOne

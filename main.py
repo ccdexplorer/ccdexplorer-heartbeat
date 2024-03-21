@@ -1,10 +1,10 @@
 # ruff: noqa: F403, F405, E402, E501, E722
 import asyncio
 from heartbeat import Heartbeat
-from ccdefundamentals.GRPCClient import GRPCClient
-from ccdefundamentals.GRPCClient.CCD_Types import *
-from ccdefundamentals.tooter import Tooter
-from ccdefundamentals.mongodb import (
+from ccdexplorer_fundamentals.GRPCClient import GRPCClient
+from ccdexplorer_fundamentals.GRPCClient.CCD_Types import *
+from ccdexplorer_fundamentals.tooter import Tooter
+from ccdexplorer_fundamentals.mongodb import (
     MongoDB,
     MongoMotor,
 )
